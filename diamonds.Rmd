@@ -11,6 +11,8 @@ library(ggplot2)
 
 ## Diamonds dataset
 
+Adding some text here
+
 ```{r}
 ggplot(diamonds, aes(carat, price, color = cut)) +
   geom_point() +
