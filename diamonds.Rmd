@@ -12,6 +12,7 @@ library(ggplot2)
 ## Diamonds dataset
 
 Adding some text here
+and some more
 
 ```{r}
 ggplot(diamonds, aes(carat, price, color = cut)) +
