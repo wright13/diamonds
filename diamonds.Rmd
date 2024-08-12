@@ -1,0 +1,18 @@
+---
+title: "Diamonds"
+output: html_document
+date: "`r Sys.time()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Diamonds dataset
+
+```{r}
+ggplot(diamonds, aes(carat, price, color = cut)) +
+  geom_point() +
+  scale_color_viridis_d()
+```
